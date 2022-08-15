@@ -85,32 +85,3 @@ function removeAllActive() {
   liElements.forEach((e) => e.classList.remove('active'))
 }
 
-// let currentSlide = 1
-// function nexSlide() {
-//   for (let i = 0; i < bulletNumber; i++) {
-//     sliderImg[i].classList.remove('active');
-//   };
-//   slideNumber.innerHTML = `Slide ${currentSlide + 1} of ${bulletNumber}`;
-//   sliderImg[currentSlide - 1].classList.add('active');
-//   console.log(currentSlide);
-//   currentSlide++;
-//   if (currentSlide == sliderImg.length) {
-//     currentSlide = 0
-//   }
-//   console.log(sliderImg.length)
-// }
-
-// currentSlide = 0;
-// function prevslide() {
-//   for (let i = 0; i < bulletNumber; i++) {
-//     sliderImg[i].classList.remove('active')
-//   }
-//   slideNumber.innerHTML = `Slide ${currentSlide + 1} of ${bulletNumber}`;
-//   currentSlide--;
-//   if (currentSlide == -1) {
-//     currentSlide = sliderImg.length - 1;
-//   }
-//   console.log(currentSlide)
-//   sliderImg[currentSlide - 1].classList.add('active')
-//   slideNumber.innerHTML = `Slide ${currentSlide + 1}`;
-// }
